@@ -1,1 +1,1 @@
-Welcome to the sample github actions workflow setup
+Welcome to the simple github actions workflow setup
