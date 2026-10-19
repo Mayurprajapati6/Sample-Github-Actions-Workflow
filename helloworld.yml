@@ -1,0 +1,15 @@
+name: "Hello world workflow" # name of the workflow
+
+# controls when the action will run. Trigger the workflow on push some to master or production branch
+on:
+  push:
+    branches:
+      - master
+      - production
+
+jobs:
+  hello_world: # here hello_world is a one job name
+    runs-on: ubuntu-lastest  # here runs-on is a pre-defined key. it specifies the type of environment where this particular workflow is execute
+    steps:
+      - name: "Print hello world" # name of particular step
+        run: echo "Hello world" # here on this step which command to run that's why key is run . what do you want to execute in this particular step
