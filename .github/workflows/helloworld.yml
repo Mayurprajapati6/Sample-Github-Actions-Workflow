@@ -13,3 +13,6 @@ jobs:
     steps:
       - name: "Print hello world" # name of particular step
         run: echo "Hello world" # here on this step which command to run that's why key is run . what do you want to execute in this particular step
+      
+      - name: "Print current date"
+        run: date
