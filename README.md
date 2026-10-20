@@ -6,3 +6,5 @@ workflow -> jobs -> steps -> actions
 - jobs -> contains certain set of steps
 - steps -> single peace of code
 - actions -> some linux command or pre-build github action command use as a steps
+
+- Added second workflow.
